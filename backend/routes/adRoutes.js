@@ -7,3 +7,4 @@ const { protect } = require("../middlewares/authMiddleware");
 router.route("/").post(protect, setAd);
 
 module.exports = router;
+ // gg
